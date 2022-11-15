@@ -162,6 +162,10 @@ h3 a {
     color: var(--color-highlight);
 }
 
+.h3smaller {
+    font-size: 15px;
+}
+
 p, ol, ul {
     font-family: var(---font-sans);
     font-weight: normal;
