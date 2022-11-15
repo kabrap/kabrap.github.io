@@ -12,7 +12,7 @@ Variables
     --font-serif: BlancoWeb,Times,serif;
     --font-size: 16px;
     --font-s: 14px;
-    --font-size-serif: 18px;
+    --font-size-serif: 16px;
     --spacing: 1.5em;
     --spacing-s: calc(0.5 * var(--spacing));
     --spacing-m: var(--spacing);
@@ -163,7 +163,7 @@ h3 a {
 }
 
 p, ol, ul {
-    font-family: var(--font-serif);
+    font-family: var(---font-sans);
     font-weight: normal;
     margin: 1em 0;
     font-size: var(--font-size-serif);
@@ -190,6 +190,7 @@ small {
 }
 
 .label, time {
+    font-size: 15px;
     color: var(--color-dim);
 }
 
